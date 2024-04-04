@@ -28,7 +28,7 @@ nav a {
     text-decoration: none;
     font-size: 30px;
     text-align: center;
-    margin: 0 10px;
+    margin: 0   10px;
 }
 
 h1 {
@@ -55,13 +55,13 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    position: end;      
     width: 100%;
     bottom: 0;
 }
 
 
 a:hover {
-    color: rgba(45, 61, 42, 0.178);
+    color: rgba(255, 255, 255, 0.479);
     cursor: pointer;
 }
