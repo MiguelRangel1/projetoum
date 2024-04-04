@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-image: url("imagem.jpg");
+       background-size: cover;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,18 +9,17 @@ body {
 }
 
 header {
-    background-color: slategrey;
+    background-color: rgba(0, 0, 0, 0.39);
     color: #fff;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 nav {
     justify-content: center;
     padding: 10px 0;
     width: 100%;
-    background-color: rgb(47, 61, 75);
+    background-color: rgba(0, 0, 0, 0.39);
     display: flex;
 }
 
@@ -34,19 +34,20 @@ h1 {
     font-size: 36px;
     margin-top: 0;
 }
+
 section {
-    background-color: #fff;
+    background-color: rgba(60, 100, 55, 0.068)    ;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 60px;
     margin-left: 300px;
     margin-right: 300px;
+    color: white;
 }
 
 
 footer {
-    background-color: slategrey;
+    background-color: rgba(0, 0, 0, 0.39);
     color: #fff;
     text-align: center;
     padding: 10px 0;
