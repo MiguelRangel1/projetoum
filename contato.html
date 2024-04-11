@@ -19,7 +19,8 @@
         <a href="videos.html">Videos</a>
         <a href="endereco.html">Endereço</a>
         <a href="galeria.html">Produtos</a>
-        <a href="https://www.pichau.com.br/?gad_source=1&gclid=Cj0KCQjwn7mwBhCiARIsAGoxjaKDw0K_SO5q_l52YWvCzHLQjSquESr8K13Nk075J7nXo1zUJXQNiAsaAsrgEALw_wcB">Loja</a>
+        <a
+            href="https://www.pichau.com.br/?gad_source=1&gclid=Cj0KCQjwn7mwBhCiARIsAGoxjaKDw0K_SO5q_l52YWvCzHLQjSquESr8K13Nk075J7nXo1zUJXQNiAsaAsrgEALw_wcB">Loja</a>
     </nav>
     </nav>
     <form>
@@ -56,11 +57,17 @@
         <label for="cor">Cor</label>
         <input type="typecolor" name="cor" id="cor">
 
-        <button type="submit">Enviar</button>
+        <button type="submit" onclick="mostrarMensagem()">Enviar</button>
     </form>
     <footer>
         &copy; Desenvolvido por Miguel
     </footer>
+    <script>
+        function mostrarMensagem() {
+            alert("Formularioenviado")
+        }
+
+    </script>
 </body>
 
 </html>
